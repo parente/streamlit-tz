@@ -13,7 +13,7 @@ _component_func = components.declare_component("streamlit_tz", path=str(frontend
 def streamlit_tz(key: Optional[str] = None):
     """Creates a new instance of the streamlit_tz component."""
     component_value = _component_func(key=key)
-    return component_value
+    return component_value if component_value is not None else "UTC"
 
 
 def example():
