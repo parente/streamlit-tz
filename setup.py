@@ -11,6 +11,7 @@ setuptools.setup(
     author="Peter Parente",
     author_email="parente@gmail.com",
     description="Streamlit component that returns the user browser IANA timezone",
+    url="https://github.com/parente/streamlit-tz",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(where="src"),
